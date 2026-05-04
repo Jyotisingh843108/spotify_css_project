@@ -271,19 +271,46 @@
 
  }
 
+ album div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+
  .album-P1 {
-     font-size: 0.675rem;
-     align-items: center;
+     font-size: 0.75rem;
      margin-left: 2rem;
-     padding: 0.5rem;
+     line-height: 0.75rem;
+     /* margin: 0; */
  }
 
  .album-P2 {
-     font-size: 0.5rem;
-     align-items: center;
-     margin-left: 2rem;
-     padding: 0.5rem;
-     min-width: 100px;
+     font-size: 0.75rem;
+    margin-left: 2rem;
+     line-height: 0.75rem;
+     
+ } 
+
+ .heart{
+    align-items: center;
+    margin-left: 2rem;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    
+    
+
+ }
+
+ .keyboard{
+    margin-left: 0.2rem;
+    border: none;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+
  }
 
  .player {
