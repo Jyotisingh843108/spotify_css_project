@@ -171,9 +171,9 @@
  @media(max-width:1000px) {
      .hide {
          display: none;
-     }
+     }}
 
- }
+ 
 
  .card {
      background-color: #232323;
@@ -365,8 +365,7 @@
 
  }
 
- .image
- {
+ .image{
     width: 50px;
     height: 50px;
     border-radius: 5px;
@@ -376,16 +375,15 @@
 
  .control {
      width: 25%;
-     
-
- }
+     }
 
  .control-player-icon{
-     width: 1.2rem;
-     height: 1rem;
+     width: 1.5rem;
+     height: 1.5rem;
      margin-right: 1rem;
      opacity: 0.7;
-} 
+     background-color: #000;
+    } 
 
 .mini-player{
     margin-top: 0.3rem;
@@ -411,7 +409,7 @@
 }
 
 .control-player-icon:hover {
-  opacity: 1;
+  opacity: 2;
 }
 
 .control-bar {
